@@ -1,4 +1,4 @@
-class CryptoKitcli < Formula
+class Cryptokit < Formula
   desc "CryptoKitCLI"
   homepage "https://github.com/4-20ma/CryptoKitCLI"
   url "https://github.com/4-20ma/homebrew-CryptoKitCLI/archive/refs/tags/0.1.0.tar.gz"
