@@ -5,7 +5,7 @@ class CryptoKitCLI < Formula
   sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   head "https://github.com/alexruperez/CryptoKitCLI.git"
 
-  depends_on :xcode => "11.4"
+  depends_on xcode: ["11.4", :build]
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
